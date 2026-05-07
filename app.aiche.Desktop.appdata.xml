@@ -6,7 +6,7 @@
   <summary>AI-powered audio transcription and text enhancement</summary>
 
   <metadata_license>MIT</metadata_license>
-  <project_license>LicenseRef-proprietary</project_license>
+  <project_license>LicenseRef-proprietary=https://aiche.app/terms</project_license>
 
   <description>
     <p>
@@ -27,8 +27,8 @@
       <li>Global hotkeys (Ctrl+Alt+R record, Ctrl+Alt+E mute)</li>
     </ul>
     <p>
-      Note: Smart Insert on Wayland requires one-time uinput access setup.
-      See Settings → About for the setup command after installation.
+      Note: Smart Insert on Wayland uses the RemoteDesktop portal — Fedora and
+      KDE users will see a one-time system permission dialog when first enabled.
     </p>
   </description>
 
@@ -65,6 +65,13 @@
   <content_rating type="oars-1.1" />
 
   <releases>
+    <release version="1.1.6" date="2026-05-08">
+      <description>
+        <p>Smart Insert now works on Fedora with screen permissions.</p>
+        <p>History panel shows an empty state when no recordings.</p>
+        <p>Removed duplicate launcher icon when both DEB and AppImage are installed.</p>
+      </description>
+    </release>
     <release version="1.1.5" date="2026-05-02">
       <description>
         <p>Bug fixes and improvements.</p>
@@ -73,6 +80,13 @@
   </releases>
 
   <screenshots>
-    <!-- Add screenshots before Flathub submission -->
+    <screenshot type="default">
+      <image>https://github.com/AICHE-app/linux-releases/releases/download/v1.1.6/screenshot-settings.png</image>
+      <caption>Main settings panel — account, preferences, audio, hotkeys</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/AICHE-app/linux-releases/releases/download/v1.1.6/screenshot-record.png</image>
+      <caption>Recording in progress</caption>
+    </screenshot>
   </screenshots>
 </component>

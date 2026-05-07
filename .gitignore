@@ -1,1 +1,4 @@
 .claude/
+build-test/
+build-test-repo/
+.flatpak-builder/
